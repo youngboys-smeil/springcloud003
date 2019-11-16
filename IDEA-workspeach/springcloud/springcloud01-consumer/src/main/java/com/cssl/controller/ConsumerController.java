@@ -14,7 +14,7 @@ public class ConsumerController {
 
     @RequestMapping("/bye")
     public String bye(){
-        System.out.println("hello world");
+        System.out.println("hello world111111111");
         return restTemplate.getForObject("http://SPRINGCLOUD01-PROVIDER/hi", String.class);
     }
 }
